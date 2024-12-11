@@ -1,0 +1,90 @@
+#adminLogout{
+  cursor:pointer !important;
+}
+
+#dropBox a{
+  color:var(--textColorTwo) !important;
+}
+
+.bg-light{
+  list-style:none !important;
+  display:none;
+}
+
+.show{
+  display:block !important;
+}
+
+.homeHeader{
+  color:var(--textColorOne) !important;
+  font-size:1.5em !important;
+}
+
+.btnMenu{
+  position:absolute !important;
+  bottom:90% !important;
+  left:2rem !important;
+}
+
+
+
+#offcanvasMenu {
+  width:20vw !important;
+  height:100vh !important;
+  background: var(--secondaryColor) !important;
+  color:var(--textColorOne) !important;
+  overflow-y:auto !important;
+}
+
+.list-group {
+  list-style:none !important;
+}
+
+.list-group > li{
+  border:0 !important;
+  border-bottom:0.05em solid var(--textColorOne) !important;
+
+  transition:all 0.5s;
+}
+
+.list-group > li:hover{
+  background:rgba(255,255,255,0.5) !important;
+ 
+}
+
+.list-group > li:hover a{
+  color:var(--textColorTwo) !important;
+}
+
+
+.list-group > li > a{
+  text-decoration: none !important;
+  color:var(--textColorOne) !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius:5px !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+

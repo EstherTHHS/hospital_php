@@ -1,0 +1,9 @@
+
+
+.modal-content{
+  background:var(--firstColor) !important;
+}
+
+.modal-title{
+  color:var(--secondaryColor) !important;
+}

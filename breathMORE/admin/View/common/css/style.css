@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Marcellus&family=Playball&display=swap");
+
+:root {
+  --firstColor: #f2f4f1;
+  --secondaryColor: #4b694d;
+  --thirdColor: #8a39ab;
+  --firstColor: #f2f4f1;
+  --secondaryColor: #4b694d;
+  --thirdColor: #8a39ab;
+
+  --textColorOne: #e8f3f1;
+  --textColorTwo: #000;
+  --fontOne: "Josefin Sans";
+  --fontTwo: "Roboto";
+
+  --logoColor: red;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100% !important;
+  /* height:100vh !important; */
+  font-family: var(--fontOne), sans-serif !important;
+  background: var(--firstColor) !important;
+  /* overflow:hidden !important; */
+}
+
+.homeHeader {
+  color: var(--textColorOne) !important;
+  font-size: 2rem !important;
+  text-decoration: capitalize !important;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.homeHeader > span {
+  text-decoration: uppercase !important;
+
+  color: var(--logoColor) !important;
+}
+
+.header {
+  color: var(--thirdColor) !important;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  color: var(--thirdColor) !important;
+  text-decoration: underline !important;
+  text-decoration-color: var(--secondaryColor) !important;
+
+  position: relative !important;
+}
+
+.mylabsearchRes {
+  color: var(--secondaryColor) !important;
+  font-size: 16px;
+  font-weight: bold;
+  /* position: relative !important; */
+}
+
+label {
+  font-size: 20px;
+}
+
+.titleBar {
+  display: inline-block !important;
+  width: 0 !important;
+  height: 0 !important;
+  border-top: 8px solid transparent !important;
+  border-right: 16px solid var(--secondaryColor) !important;
+  border-bottom: 8px solid transparent !important;
+
+  position: absolute !important;
+  left: 100% !important;
+  bottom: 0 !important;
+}
+
+.bg-green {
+  background: var(--secondaryColor) !important;
+  color: var(--textColorOne) !important;
+}
+
+.bg-purple {
+  background: var(--thirdColor) !important;
+  color: var(--textColorOne) !important;
+}
+
+.btn-purple {
+  background: var(--thirdColor) !important;
+  color: var(--textColorOne) !important;
+}
+
+.btn-green {
+  background: var(--secondaryColor) !important;
+  color: var(--textColorOne) !important;
+
+  transition: all 0.5s !important;
+}
+
+.btn-green:hover {
+  background: var(--thirdColor) !important;
+}
+
+/*START FOR TABLES and  FORMS*/
+.table {
+  background: var(--textColorOne) !important;
+  color: var(--textColorTwo) !important;
+}
+
+@media (min-width: 992px) {
+  .table {
+    width: 80vw !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .table {
+    width: 75vw !important;
+  }
+}
+
+@media (min-width: 576) {
+  .table {
+    width: 100vw !important;
+  }
+}
+
+.thead {
+  height: 10vh !important;
+  background: var(--secondaryColor) !important;
+  color: var(--textColorOne) !important;
+}
+
+.fa-solid {
+  color: var(--secondaryColor) !important;
+}
+
+.fa-solid:hover {
+  cursor: pointer !important;
+}
+
+/* END FOR TABLES */
+
+/* START FOR FORMS*/
+.form {
+  background: var(--textColorOne) !important;
+  color: var(--textColorTwo) !important;
+}
+/* END FOR FORMS */

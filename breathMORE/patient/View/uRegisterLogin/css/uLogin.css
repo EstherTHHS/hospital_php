@@ -1,0 +1,61 @@
+body{
+    width:100vw !important;
+    height:100vh !important;
+    overflow:hidden !important;
+}
+
+.loginBg{
+    background-image:url('../../storage/home/hospital01.jpg');
+    background-position: center !important;
+    background-size:cover !important;
+    
+}
+
+.loginInfo{
+    background:var(--secondaryColor) !important;
+}
+
+.regLink > a{
+    color:var(--textColorOne) !important;
+}
+
+.regLink span{
+    color:var(--textColorOne) !important;
+}
+
+.header{
+    font-size:1.2rem !important;
+}
+
+.homeHeader{
+    color:var(--thirdColor) !important;
+    font-size:1.6rem !important;
+    text-shadow: 0 3px 3px rgba(0,0,0,0.5) !important;
+}
+
+.logo{
+    width:6rem !important;
+    object-fit:contain !important;
+  }
+
+  
+
+@media (max-width: 600px){
+    .formContainer{
+        width:95vw !important;
+    }
+}
+
+@media (max-width:630px){
+    .homeHeader{
+        font-size:1.4rem !important;
+        text-shadow: 0 5px 5px rgba(0,0,0,0.5) !important;
+    }
+}
+
+@media (max-width:500px){
+    .formRow{
+        display:flex !important;
+        flex-direction: column !important;
+    }
+}

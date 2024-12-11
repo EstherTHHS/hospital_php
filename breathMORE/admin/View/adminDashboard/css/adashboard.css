@@ -1,0 +1,42 @@
+
+#adminLogout{
+    cursor:pointer !important;
+  }
+  
+  #dropBox a{
+    color:var(--textColorTwo) !important;
+  }
+  
+  .bg-light{
+    list-style:none !important;
+    display:none;
+  }
+  
+  .show{
+    display:block !important;
+  }
+  
+
+
+
+.adminDashboard{
+    background:var(--textColorOne) !important;
+    color:var(--textColorTwo) !important;
+    overflow:hidden !important;
+    /* border:0.5em solid var(--secondaryColor) !important; */
+}
+
+.btn-xl{
+    width:16vw !important;
+
+    position:  relative !important;
+}
+
+
+
+.badge-primary{
+    position:absolute !important;
+    top:50% !important;
+    transform:translateY(-50%) !important;
+    right:5% !important;
+}
